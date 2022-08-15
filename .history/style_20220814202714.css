@@ -1,0 +1,83 @@
+body {
+    background-image: url("img/fundo.jpg")
+}
+
+.titulo {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.calculadora {
+    width: 250px;
+    height: 400px;
+    margin-left: 40%;
+    border: 5px black;
+    border-radius: 10px;
+
+}
+
+.botao {
+    height: 50px;
+    width: 50px;
+    border-width: inherit;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.botao:hover {
+    border-width: 2px;
+    border-color: blueviolet;
+
+}
+
+.botao1:hover {
+    border-width: 2px;
+    border-color: blueviolet;
+
+}
+
+.botao2:hover {
+    background-color: blueviolet;
+    color:wheat;
+}
+
+.botao1 {
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    border-width: inherit;
+
+}
+
+.botao2 {
+    height: 100px;
+    width: 50px;
+    border-radius: 10px;
+    border-width: inherit;
+
+}
+
+#resultado {
+    background-color: blueviolet;
+    height: 60px;
+    width: 215px;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: right;
+
+
+}
+
+table {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.cor{
+    border-radius: 100px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js">
+       
+    </script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+
+    <div class="frase"></div>
+    <div class="calculadora">
+        <p class="titulo">Calculadora</p>
+        <div id="resultado">  </div>
+        <table>
+            <tr>
+                
+                <td><button class="botao" onclick="limpar()">C</button></td>
+                <td><button class="botao" onclick="voltar()"><</button>
+                </td>
+                <td><button class="botao" onclick="acrescenta('/')">/</button></td>
+                <td><button class="botao" onclick="acrescenta('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="acrescenta('7')">7</button></td>
+                <td><button class="botao" onclick="acrescenta('8')">8</button></td>
+                <td><button class="botao" onclick="acrescenta('9')">9</button></td>
+                <td><button class="botao" onclick="acrescenta('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="acrescenta('4')">4</button></td>
+                <td><button class="botao" onclick="acrescenta('5')">5</button></td>
+                <td><button class="botao" onclick="acrescenta('6')">6</button></td>
+                <td><button class="botao" button onclick="acrescenta('+'), calcular()" >+</button>
+                </td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="acrescenta('1')">1</button></td>
+                <td><button class="botao" onclick="acrescenta('2')">2</button></td>
+                <td><button class="botao" onclick="acrescenta('3')">3</button></td>
+                <td rowspan="2"><button class="botao2" onclick="calcular()">=</button></td>
+            </tr>
+            <tr>
+
+                <td> <button class="botao" onclick="acrescenta('.')">.</button></td>
+                <td colspan="2"><button class="botao1" onclick="acrescenta('0')">0</button></td>
+            </tr>
+        </table>
+    </div>
+   <button onclick="mudaCor()">um botao </button>
+
+</body>
+
+</html>
